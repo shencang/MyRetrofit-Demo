@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<String> call, Response<String> response) {
                 Toast.makeText(MainActivity.this,  response.body(), Toast.LENGTH_SHORT).show();
             }
-
             @Override
             public void onFailure(Call<String> call, Throwable t) {
 

@@ -8,5 +8,7 @@ public interface DataService {
     @GET
     Call<String>baidu(@Url String url);
 
+    @GET
+    Call<String>sougou(@Url String url);
 }
 
