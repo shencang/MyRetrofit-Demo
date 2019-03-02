@@ -1,4 +1,4 @@
-package com.example.jin.myretrofitdemo;
+package com.example.jin.myretrofitdemo.First;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
