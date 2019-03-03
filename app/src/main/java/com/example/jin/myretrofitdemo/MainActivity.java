@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 .baseUrl("http://fanyi.youdao.com/") //设置网络请求的Url地址
                 .addConverterFactory(GsonConverterFactory.create()) //设置数据解析器
                 .build();
-        
 
         // 从上面看出：一个请求的URL可以通过 替换块 和 请求方法的参数 来进行动态的URL更新。
         // 替换块是由 被{}包裹起来的字符串构成
