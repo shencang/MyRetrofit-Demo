@@ -9,6 +9,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //
 //        });
+        // 第2部分：在创建Retrofit实例时通过.baseUrl()设置
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://fanyi.youdao.com/") //设置网络请求的Url地址
+                .addConverterFactory(GsonConverterFactory.create()) //设置数据解析器
+                .build();
+        
+
+        // 从上面看出：一个请求的URL可以通过 替换块 和 请求方法的参数 来进行动态的URL更新。
+        // 替换块是由 被{}包裹起来的字符串构成
+        // 即：Retrofit支持动态改变网络请求根目录
+
 
     }
 

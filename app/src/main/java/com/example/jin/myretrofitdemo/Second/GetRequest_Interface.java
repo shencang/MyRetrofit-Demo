@@ -1,11 +1,12 @@
 package com.example.jin.myretrofitdemo.Second;
 
+import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface GetRequest_Interface {
 
-   // @GET("openapi.do?keyfrom=Yanzhikai&key=2032414398&type=data&doctype=json&version=1.1&q=car")
-  //  Call<Translation> getCall();
+    @GET("openapi.do?keyfrom=Yanzhikai&key=2032414398&type=data&doctype=json&version=1.1&q=car")
+    Call<Translation> getCall();
     // @GET注解的作用:采用Get方法发送网络请求
 
     // getCall() = 接收网络请求数据的方法

@@ -8,6 +8,14 @@
      Retrofit 最简单的快速入门及封装：https://blog.csdn.net/chenjie0932/article/details/79558050
      这是一份很详细的 Retrofit 2.0 使用教程（含实例讲解）：
      https://blog.csdn.net/carson_ho/article/details/73732076
+
+
+#### GsonConverterFactory的问题：
+     https://blog.csdn.net/qq_34468274/article/details/81746588
+     https://www.jianshu.com/p/5b8b1062866b
+     https://codeday.me/bug/20180523/170972.html
+     https://stackoverflow.com/questions/35445892/i-cant-import-import-retrofit-gsonconverterfactory-in-retrofit-2-beta-4
+
 ### Retrofit官方网站：
      https://square.github.io/retrofit/
      https://github.com/square/retrofit
