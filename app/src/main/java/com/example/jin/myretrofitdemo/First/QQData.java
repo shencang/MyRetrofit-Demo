@@ -5,4 +5,6 @@ import retrofit2.http.Query;
 public class QQData {
     String appkey;
     String qq;
+
+
 }
